@@ -1,0 +1,8 @@
+import random
+
+# Input: a string 
+# Output: a stirng appended with a randon number in range [6,11]
+def append_number(name):
+	r = random.randint(6,11)
+	name = name+str(r)
+	return name
